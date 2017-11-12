@@ -1,0 +1,16 @@
+{
+  "parser": "babel-eslint",
+  "extends": ["airbnb-base", "plugin:flowtype/recommended"],
+  "env": {
+    "node": true,
+    "jest": true
+  },
+  "plugins": ["flowtype"],
+  "rules": {
+    "class-methods-use-this": ["off"],
+    "complexity": ["warn", { "max": 4 }],
+    "flowtype/no-types-missing-file-annotation": ["off"],
+    "no-unused-vars": ["error", { "argsIgnorePattern": "^\\$" }],
+    "prefer-destructuring": ["error", { "object": false }]
+  }
+}

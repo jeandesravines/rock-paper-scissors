@@ -1,0 +1,7 @@
+{
+  "plugins": [
+    ["typecheck", {"disable": {"production": true}}],
+    ["add-module-exports"],
+  ],
+  "presets": ["env", "stage-0", "flow"]
+}
